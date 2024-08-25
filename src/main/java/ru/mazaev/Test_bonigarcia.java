@@ -32,7 +32,6 @@ public class Test_bonigarcia {
     @Test
     public void data_types(){
         webDriver.get("https://bonigarcia.dev/selenium-webdriver-java/data-types.html");
-
     }
 
     @After
