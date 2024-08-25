@@ -10,18 +10,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Test_bonigarcia {
     private WebDriver webDriver;
 
-    /* String[] inputs = new String[]{
-            "first-name", "last-name", "address",
-            "e-mail", "phone", "city", "country",
-            "job-position", "company"};
-
-    String[] datas = new String[] {
-            "Иван", "Петров", "Ленина, 55-3",
-            "test@skypro.com", "+7985899998787",
-            "Москва", "Россия", "QA", "SkyPro"
-    };
-     */
-
     @Before
     public void setup() {
         WebDriverManager.firefoxdriver().setup();
