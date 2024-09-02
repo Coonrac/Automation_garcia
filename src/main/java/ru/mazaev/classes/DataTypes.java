@@ -26,7 +26,7 @@ public class DataTypes {
 
     public void ValidateResult(String[] inputs){
         for (String input : inputs) {
-            String successElement = wbDriver.findElement(By.id(input)).getAttribute("class");
+            String successElement = webDriver.findElement(By.id(input)).getAttribute("class");
             assert successElement.contains("alert-success");
         }
     }
